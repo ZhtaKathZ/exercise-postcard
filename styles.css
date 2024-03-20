@@ -1,5 +1,6 @@
 body {
 	background: black;
+	font-family: "Courier New", Courier, monospace;
 }
 * {
 	border: 1px dashed red;
@@ -8,7 +9,7 @@ body {
 .postcard {
 	background: white;
 	width: 400px;
-	height: 300px;
+	height: auto;
 	margin: auto;
 }
 .postcard-header {
@@ -34,7 +35,7 @@ body {
 }
 input {
 	border: none;
-	border-bottom: gray;
+	border-bottom: 1px solid gray;
 }
 .postcard-footer {
 	text-align: center;
